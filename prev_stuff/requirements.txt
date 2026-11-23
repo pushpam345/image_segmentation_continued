@@ -1,0 +1,25 @@
+# Single unified requirements for:
+# - attempt_1_vanilla_unet (TensorFlow)
+# - attempt_2_resnet50_unet (TensorFlow + plotting)
+# - attempt_3_deeplabv3+_fnet (PyTorch + segmentation_models_pytorch)
+
+# Core numerics / utilities
+numpy>=1.24
+pillow>=10.0.0
+tqdm>=4.66.0
+matplotlib>=3.8.0
+
+# Data processing / augmentation
+albumentations>=1.4.0
+opencv-python>=4.8.0
+
+# TensorFlow stack (attempt 1 + 2)
+tensorflow>=2.13.0
+keras>=3.0.0
+
+# PyTorch stack (attempt 3)
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+segmentation-models-pytorch>=0.3.3
+timm>=0.9.12

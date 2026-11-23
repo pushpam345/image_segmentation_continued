@@ -1,0 +1,6 @@
+data/
+myenv/
+venv/
+*.h5
+*.keras
+*.pth
